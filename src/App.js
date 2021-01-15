@@ -4,8 +4,8 @@ import "./App.css";
 import "./bootswatch.css";
 import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
+import Header from "./components/Header";
 import AboutMe from "./components/pages/AboutMe";
-import Contact from "./components/pages/Contact";
 import Portfolio from "./components/pages/Portfolio";
 
 
@@ -16,10 +16,11 @@ return (
   <div>
     <Router>
       <NavBar/>
+      <Header/>
       <Route exact path ="/" component={AboutMe}/>
-      {/* <Route exact path ="/Contact" component={Contact}/> */}
       <Route exact path ="/Portfolio" component={Portfolio}/>
     </Router>
+    <Footer/>
   </div>
 
 )};

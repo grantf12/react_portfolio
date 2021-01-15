@@ -1,15 +1,22 @@
 import React from "react";
-// import Photo from "../../images/Me"
+import Me from "../../images/Me.png"
 
 function AboutMe() {
+
     return (
-<div>
+    <div className="container">
+      <div className="row">
+        <div className="col-md-8">
+          <div className="card">
+            <div className="card-body">
+              <div className="row">
+                <div className="col-md-12">
                   <strong>
                     <h1>About Me</h1>
                   </strong>
                   <hr />
                   <img
-                    src=""
+                    src={Me}
                     width="auto"
                     height="250px"
                     align="left"
@@ -17,7 +24,7 @@ function AboutMe() {
                     vspace="5"
                     alt="Me"
                   />
-                  <p style={{ "fontSize" : "20px" }}>
+                  <p style={{ "font-size" : "20px" }}>
                     My name is Grant Ferment. I was raised in Charlotte, North
                     Carolina and graduated from UNC Charlotte. I graduated with
                     a bachelor's degree in Exercise Science with a Minor in
@@ -26,7 +33,13 @@ function AboutMe() {
                     working in this field and sought out new job opportunities
                     when I came across web development.
                   </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
     </div>
+</div>
 )
 
 };

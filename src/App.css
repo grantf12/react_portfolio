@@ -8,3 +8,21 @@
 .btn-group {
   margin: 0 auto;
 }
+
+.Header {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background-color: lightblue;
+  color: black;
+  text-align: center;
+}
+
+.footer {
+  position: sticky;
+  bottom: 0;
+  width: 100%;
+  background-color: lightblue;
+  color: white;
+  text-align: center;
+}

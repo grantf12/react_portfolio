@@ -14,11 +14,11 @@ function App() {
 return (
 
   <div>
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <NavBar/>
       <Header/>
       <Route exact path ="/" component={AboutMe}/>
-      <Route exact path ="/Portfolio" component={Portfolio}/>
+      <Route exact path ="/portfolio" component={Portfolio}/>
     </Router>
     <Footer/>
   </div>

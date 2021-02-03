@@ -38,7 +38,7 @@ function Portfolio() {
                 <br/>
                     <div className="row">
                         <div className="col-sm-3">
-                            <h4>Eat_Da-Burger:</h4>
+                            <h4>Eat-Da-Burger:</h4>
                             <h6> <a href="https://github.com/grantf12/Eat-Da-Burger" target="blank">Repo</a>
                             </h6>
                             <h6> <a href="https://infinite-everglades-37369.herokuapp.com/" target="blank">Website</a>
@@ -104,7 +104,7 @@ function Portfolio() {
                 <hr/>
                 <div className="row">
                     <div className="col-sm-3">
-                        <h4>Fuel Finder:</h4>
+                        <h4>Daily Planner:</h4>
                         <h6> <a href="https://github.com/grantf12/Daily_Planner" target="blank">Repo</a></h6>
                         <h6> <a href="https://grantf12.github.io/Daily_Planner/" target="blank">Website</a>
                         </h6>

@@ -4,13 +4,13 @@ import Me from "../../images/Me.png"
 function AboutMe() {
 
     return (
-    <div className="container">
+    <div className="container-fluid">
       <div className="row">
-        <div className="col-md-8">
-          <div className="card">
+        <div className="col-sm-12">
+          <div className="card w-75">
             <div className="card-body">
               <div className="row">
-                <div className="col-md-12">
+                <div className="col-sm-12">
                   <strong>
                     <h1>About Me</h1>
                   </strong>

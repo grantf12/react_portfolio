@@ -14,7 +14,7 @@ function App() {
 return (
 
   <div>
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router>
       <NavBar/>
       <Header/>
       <Route exact path ="/" component={AboutMe}/>

@@ -32,7 +32,7 @@ function Portfolio() {
                         alt="employee"/>
                     </div>
                 </div>
-                <div/>
+                </div>
                 <br/>
                 <hr/>
                 <br/>
@@ -50,7 +50,6 @@ function Portfolio() {
                             alt="Burger"/>
                         </div>
                     </div>
-                </div>
                 <br/>
                 <hr/>
                 <br/>

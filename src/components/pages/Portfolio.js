@@ -29,7 +29,7 @@ function Portfolio() {
                     <div className="col-sm-9">
                         <img src={EmpDir}
                         className="img-fluid mx-auto d-block"
-                        alt="Weather"/>
+                        alt="employee"/>
                     </div>
                 </div>
                 <div/>
@@ -53,6 +53,7 @@ function Portfolio() {
                 </div>
                 <br/>
                 <hr/>
+                <br/>
                     <div className="row">
                         <div className="col-sm-3">
                             <h4>Fuel Finder:</h4>
